@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<project name="SASEP" basedir="." default="deploy">
+
+  <fileset dir="./sasep" id="codefiles">
+    <include name="**" />
+  </fileset>
+
+  <target name="get">
+     <echo msg="Actualizando Repositorio..." />
+         <exec command="git pull" dir="C:/Users/compaq/Documents/GitHub/SASEP" logoutput="true" />     
+  </target>
+
+  <target name="test" depends="get">
+     <echo msg="Iniciando Pruebas Unitarias..." />
+         <exec command="phpunit --stop-on-failure AllTest.php" dir="./sasep/testuni/" logoutput="true" />     
+    </target>
+
+  <target name="try" depends="test">
+     <echo msg="Probando Despliegue..." />
+    <copy todir="C:\Program Files (x86)\VertrigoServ\www_\sasep" overwrite="true">
+      <fileset refid="codefiles" />
+    </copy>
+  </target>
+
+  <target name="deploy" depends="try">
+    <echo msg="Desplegando Aplicacion..." />
+    <copy todir="C:\Program Files (x86)\VertrigoServ\www\sasep" overwrite="true">
+      <fileset refid="codefiles" />
+    </copy>
+  </target>
+
+</project>
