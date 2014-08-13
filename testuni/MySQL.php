@@ -7,7 +7,7 @@ class MySQL{
   public function MySQL(){ 
 
     if(!isset($this->conexion)){
-      $this->conexion = (mysql_connect("localhost","root","vertrigo"))
+      $this->conexion = (mysql_connect("localhost","sasep","sasep"))
         or die(mysql_error());
       mysql_select_db("bd_sasep",$this->conexion) or die(mysql_error());
     }

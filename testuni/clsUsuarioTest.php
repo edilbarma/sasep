@@ -20,7 +20,7 @@ public function additionProvider()
     {
         return array(
           array(1, 'admin'),
-          array(3, 'randy'),
+          array(2, 'randy'),
           array(10, 'edilverbm')
         );
     }
