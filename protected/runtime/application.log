@@ -1,0 +1,1203 @@
+2014/07/19 21:28:59 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "personas/create".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('personas/create', NULL, true)
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(39): CController->render('personas/create')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistro()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('Registro')
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Registro')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/sasep/site/Registro.html
+HTTP_REFERER=http://localhost/sasep/site/index.html
+---
+2014/07/19 21:29:21 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "site/personas/create".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('site/personas/c...', NULL, true)
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(39): CController->render('site/personas/c...')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistro()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('Registro')
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Registro')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/sasep/site/Registro.html
+HTTP_REFERER=http://localhost/sasep/site/index.html
+---
+2014/07/19 21:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "personas/create".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('personas/create')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sasep/personas/create.html
+HTTP_REFERER=http://localhost/sasep/site/index.html
+---
+2014/07/19 21:32:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "personas/create".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('personas/create')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sasep/personas/create.html
+HTTP_REFERER=http://localhost/sasep/site/index.html
+---
+2014/07/19 21:58:40 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "Persona/_form".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\Registro.php(23): CController->renderPartial('Persona/_form', Array)
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('Registro', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(39): CController->render('Registro', Array)
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistro()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('Registro')
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Registro')
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sasep/site/Registro.html
+HTTP_REFERER=http://localhost/sasep/site/index.html
+---
+2014/07/19 21:58:58 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "persona/_form".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\Registro.php(23): CController->renderPartial('persona/_form', Array)
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('Registro', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(39): CController->render('Registro', Array)
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistro()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('Registro')
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Registro')
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sasep/site/Registro.html
+HTTP_REFERER=http://localhost/sasep/site/index.html
+---
+2014/07/19 22:30:12 [error] [php] Missing argument 2 for CHtml::listData(), called in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\Registro.php on line 36 and defined (C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\helpers\CHtml.php:2073)
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(39): SiteController->render()
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistro()
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CWebApplication->run()
+REQUEST_URI=/sasep/site/Registro.html
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\Registro.php (36)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (39)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 00:58:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/date.png".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/date.png')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sasep/images/date.png
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 01:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/date.png".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/date.png')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sasep/images/date.png
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 02:05:28 [error] [php] date() expects at least 1 parameter, 0 given (C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php:58)
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CWebApplication->run()
+REQUEST_URI=/sasep/site/Registro.html
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (58)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:05:41 [error] [php] Use of undefined constant date - assumed 'date' (C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php:58)
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CWebApplication->run()
+REQUEST_URI=/sasep/site/Registro.html
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (58)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:08:57 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:08:57 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:08:57 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:08:57 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:08:57 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:08:57 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:08:57 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:08:57 [error] [exception.CException] exception 'CException' with message 'Property "Usuario.USUA_DOCUMENTO" is not defined.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('USUA_DOCUMENTO')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\validators\CRequiredValidator.php(58): CActiveRecord->__get('USUA_DOCUMENTO')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\validators\CValidator.php(213): CRequiredValidator->validateAttribute(Object(Usuario), 'USUA_DOCUMENTO')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(Usuario), NULL)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#5 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(53): CActiveRecord->save()
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistro()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('Registro')
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Registro')
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/sasep/site/Registro.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 02:10:21 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:21 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:21 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:21 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:21 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:21 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:21 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:41 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:41 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:41 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:41 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:41 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:41 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:10:41 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:02 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:02 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:02 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:02 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:02 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:02 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:02 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:39 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:39 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:39 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:39 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:39 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:39 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:33:39 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:35:01 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:35:01 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:35:01 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:35:01 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:35:01 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:35:01 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:35:01 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:37:50 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:37:50 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:37:50 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:37:50 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:37:50 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:37:50 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:37:50 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:37:52 [error] [exception.CException] exception 'CException' with message 'Property "Persona.USUA_TIPO" is not defined.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('USUA_TIPO')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('USUA_TIPO')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\helpers\CHtml.php(1802): CHtml::resolveValue(Object(Persona), 'USUA_TIPO')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\widgets\CActiveForm.php(847): CHtml::activeDropDownList(Object(Persona), 'USUA_TIPO', Array, Array)
+#4 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\Registro.php(208): CActiveForm->dropDownList(Object(Persona), 'USUA_TIPO', Array, Array)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('Registro', Array, true)
+#9 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(61): CController->render('Registro', Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistro()
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('Registro')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Registro')
+#16 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/sasep/site/Registro.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 02:38:32 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:38:32 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:38:32 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:38:32 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:38:32 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:38:32 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:38:32 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:39:18 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:39:18 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:39:18 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:39:18 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:39:18 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:39:18 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:39:18 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:14 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:14 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:14 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:14 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:14 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:14 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:14 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:31 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:31 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:31 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:31 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:31 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:31 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:44:31 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:45:29 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:45:29 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:45:29 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:45:29 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:45:29 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:45:29 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:45:29 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:50:53 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:50:53 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:50:53 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:50:53 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:50:53 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:50:53 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:50:53 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:51:49 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:51:49 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:51:49 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:51:49 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:51:49 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:51:49 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:51:49 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:59:08 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:59:08 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:59:08 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:59:08 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:59:08 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:59:08 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 02:59:08 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:07:53 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:07:53 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:07:53 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:07:53 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:07:53 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:07:53 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:07:53 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:08:04 [warning] [application] Failed to set unsafe attribute "USUA_USUARIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:08:04 [warning] [application] Failed to set unsafe attribute "USUA_CONTRASENA" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:08:04 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:08:04 [warning] [application] Failed to set unsafe attribute "USUA_FECHACAMBIO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:08:04 [warning] [application] Failed to set unsafe attribute "USUA_REGISTRADOPOR" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:08:04 [warning] [application] Failed to set unsafe attribute "PEGE_ID" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 03:08:04 [warning] [application] Failed to set unsafe attribute "USUA_ESTADO" of "Persona".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 13:57:38 [error] [php] Undefined index: TIUSUA_ID (C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CWebApplication->run()
+REQUEST_URI=/sasep/site/Registro.html
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (52)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 14:03:03 [warning] [application] Failed to set unsafe attribute "USUA_TIPO" of "Usuario".
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (51)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 14:03:03 [error] [php] Undefined index: TIUSUA_ID (C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CWebApplication->run()
+REQUEST_URI=/sasep/site/Registro.html
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (52)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 14:04:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sasep/site/20.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 14:08:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sasep/site/20.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 14:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Registrocompleto".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(270): CController->missingAction('Registrocomplet...')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('Registrocomplet...')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Registroco...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sasep/site/Registrocompleto/21.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 14:25:51 [error] [exception.CException] exception 'CException' with message 'Usuario and its behaviors do not have a method or closure named "findByAttribute".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findByAttribute', Array)
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(41): CActiveRecord->__call('findByAttribute', Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(41): Usuario->findByAttribute(Array)
+#3 [internal function]: SiteController->actionView('22')
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/sasep/site/View/22.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 14:26:33 [error] [php] include(Modelo.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\VertrigoServ\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(42): spl_autoload_call()
+#1 unknown(0): SiteController->actionView()
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CWebApplication->run()
+REQUEST_URI=/sasep/site/View/22.html
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (42)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 14:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Modelo Usuario no existe.' in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php:43
+Stack trace:
+#0 [internal function]: SiteController->actionView('22')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/sasep/site/View/22.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 14:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Modelo Usuario no existe.' in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php:43
+Stack trace:
+#0 [internal function]: SiteController->actionView('23')
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/sasep/site/View/23.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 14:49:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PAGE_ID' in 'where clause'. The SQL statement executed was: SELECT PAGE_NOMBRE FROM tbl_paisgeneral WHERE PAGE_ID = AR.
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\models\Pais.php (25)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php (49)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (50)
+2014/07/20 14:49:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PAGE_ID' in 'where clause'. The SQL statement executed was: SELECT PAGE_NOMBRE FROM tbl_paisgeneral WHERE PAGE_ID = AR' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\CDbCommand.php(455): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\models\Pais.php(25): CDbCommand->queryColumn()
+#2 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(49): Pais->getnombre('AR')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#7 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#8 [internal function]: SiteController->actionView('25')
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#16 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 14:51:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'AR' in 'where clause'. The SQL statement executed was: SELECT PAGE_NOMBRE FROM tbl_paisgeneral WHERE PAGE_ABREVIATURA = AR.
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\models\Pais.php (25)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php (49)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (50)
+2014/07/20 14:51:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'AR' in 'where clause'. The SQL statement executed was: SELECT PAGE_NOMBRE FROM tbl_paisgeneral WHERE PAGE_ABREVIATURA = AR' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\CDbCommand.php(455): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\models\Pais.php(25): CDbCommand->queryColumn()
+#2 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(49): Pais->getnombre('AR')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#7 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#8 [internal function]: SiteController->actionView('25')
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#16 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 14:55:27 [error] [exception.CException] exception 'CException' with message 'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CDetailView.php:183
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(173): CDetailView->run()
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(52): CBaseController->widget('zii.widgets.CDe...', Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#7 [internal function]: SiteController->actionView('25')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 14:56:05 [error] [exception.CException] exception 'CException' with message 'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CDetailView.php:183
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(173): CDetailView->run()
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(52): CBaseController->widget('zii.widgets.CDe...', Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#7 [internal function]: SiteController->actionView('25')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 14:59:47 [error] [exception.CException] exception 'CException' with message 'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CDetailView.php:183
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(173): CDetailView->run()
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(52): CBaseController->widget('zii.widgets.CDe...', Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#7 [internal function]: SiteController->actionView('25')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 15:01:06 [error] [exception.CException] exception 'CException' with message 'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CDetailView.php:183
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(173): CDetailView->run()
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(54): CBaseController->widget('zii.widgets.CDe...', Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#7 [internal function]: SiteController->actionView('25')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 15:01:09 [error] [exception.CException] exception 'CException' with message 'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CDetailView.php:183
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(173): CDetailView->run()
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(54): CBaseController->widget('zii.widgets.CDe...', Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#7 [internal function]: SiteController->actionView('25')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 15:01:10 [error] [exception.CException] exception 'CException' with message 'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CDetailView.php:183
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(173): CDetailView->run()
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(54): CBaseController->widget('zii.widgets.CDe...', Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#7 [internal function]: SiteController->actionView('25')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 15:06:45 [error] [php] include(TblCiudadgeneral.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\VertrigoServ\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(611): model()
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CDetailView.php(204): Persona->getAttributeLabel()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(173): CDetailView->run()
+#4 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(54): SiteController->widget()
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require()
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#9 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): SiteController->render()
+#10 unknown(0): SiteController->actionView()
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#16 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#17 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CWebApplication->run()
+REQUEST_URI=/sasep/site/View/25.html
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php (54)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (50)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 15:11:20 [error] [php] include(TblCiudadgeneral.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\VertrigoServ\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(611): model()
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CDetailView.php(204): Persona->getAttributeLabel()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(173): CDetailView->run()
+#4 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(54): SiteController->widget()
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require()
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#9 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): SiteController->render()
+#10 unknown(0): SiteController->actionView()
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#16 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#17 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CWebApplication->run()
+REQUEST_URI=/sasep/site/View/25.html
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php (54)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (50)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\index.php (13)
+2014/07/20 15:23:42 [error] [exception.CException] exception 'CException' with message 'Property "Persona.USUA_TIPO" is not defined.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('USUA_TIPO')
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(29): CActiveRecord->__get('USUA_TIPO')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#7 [internal function]: SiteController->actionView('25')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 15:35:16 [error] [exception.CException] exception 'CException' with message 'Property "Usuario.USUA_TIPO" is not defined.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('USUA_TIPO')
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(29): CActiveRecord->__get('USUA_TIPO')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#7 [internal function]: SiteController->actionView('25')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 15:45:35 [error] [exception.CException] exception 'CException' with message 'Property "Usuario.USUA_TIPO" is not defined.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('USUA_TIPO')
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(29): CActiveRecord->__get('USUA_TIPO')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#7 [internal function]: SiteController->actionView('25')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 15:45:39 [error] [exception.CException] exception 'CException' with message 'Property "Usuario.USUA_TIPO" is not defined.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('USUA_TIPO')
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\view.php(29): CActiveRecord->__get('USUA_TIPO')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(50): CController->render('view', Array)
+#7 [internal function]: SiteController->actionView('25')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/View')
+#15 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/sasep/site/View/25.html
+HTTP_REFERER=http://localhost/sasep/site/Registro.html
+---
+2014/07/20 16:15:46 [error] [exception.CException] exception 'CException' with message 'La propiedad "Usuario"."USUA_DOCUMENTO" no se encuentra definida.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('USUA_DOCUMENTO')
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\usuario\_view.php(25): CActiveRecord->__get('USUA_DOCUMENTO')
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(130): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, false)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\Program File...', Array)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\usuario\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\UsuarioController.php(128): CController->render('index', Array)
+#16 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionIndex()
+#17 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#26 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Usuario')
+#27 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/sasep/Usuario
+---
+2014/07/20 16:33:36 [error] [php] include(WebUser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\VertrigoServ\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\YiiBase.php(196): import()
+#1 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CModule.php(386): createComponent()
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\layouts\main.php(35): CWebApplication->__get()
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require()
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(300): SiteController->endWidget()
+#11 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\layouts\column1.php(6): SiteController->endContent()
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require()
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(784): SiteController->renderFile()
+#15 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(32): SiteController->render()
+#16 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#19 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#20 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#21 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CWebApplication->run()
+REQUEST_URI=/sasep/
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\layouts\main.php (35)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\layouts\column1.php (6)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (32)
+2014/07/20 16:38:38 [error] [exception.CException] exception 'CException' with message 'CActiveForm y sus behaviors no tienen un método o closure llamado "passwordFieldrow".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\Registro.php(199): CComponent->__call('passwordFieldro...', Array)
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\Registro.php(199): CActiveForm->passwordFieldrow(Object(Usuario), 'USUA_CONTRASENA', Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('Registro', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(85): CController->render('Registro', Array)
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistro()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('Registro')
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Registro')
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/sasep/site/Registro.html
+HTTP_REFERER=http://localhost/sasep/
+---
+2014/07/20 16:39:32 [error] [exception.CException] exception 'CException' with message 'CActiveForm y sus behaviors no tienen un método o closure llamado "passwordFieldRow".' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\Registro.php(199): CComponent->__call('passwordFieldRo...', Array)
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\views\site\Registro.php(199): CActiveForm->passwordFieldRow(Object(Usuario), 'USUA_CONTRASENA', Array)
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('C:\Program File...')
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\Program File...', Array, true)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\Program File...', Array, true)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('Registro', Array, true)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(85): CController->render('Registro', Array)
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistro()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('Registro')
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Registro')
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/sasep/site/Registro.html
+HTTP_REFERER=http://localhost/sasep/
+---
+2014/07/20 17:05:53 [error] [php] include(Usuarios.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\VertrigoServ\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\components\UserIdentity.php(38): spl_autoload_call()
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\Program Files (x86)\VertrigoServ\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#5 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(147): LoginForm->validate()
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CWebApplication->run()
+REQUEST_URI=/sasep/site/login.html
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\components\UserIdentity.php (38)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\models\LoginForm.php (52)
+in C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php (147)
+2014/07/20 17:15:28 [error] [exception.CException] exception 'CException' with message 'La propiedad "Usuario"."USUA_CLAVE" no se encuentra definida.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('USUA_CLAVE')
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\models\Usuario.php(122): CActiveRecord->__get('USUA_CLAVE')
+#2 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\components\UserIdentity.php(42): Usuario->validatePassword('admin')
+#3 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(147): CModel->validate()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sasep/site/login.html
+HTTP_REFERER=http://localhost/sasep/site/login.html
+---
+2014/07/20 17:24:18 [error] [exception.CException] exception 'CException' with message 'La propiedad "Usuario"."USES_ID" no se encuentra definida.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('USES_ID')
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\components\UserIdentity.php(44): CActiveRecord->__get('USES_ID')
+#2 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(147): CModel->validate()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/sasep/site/login.html
+HTTP_REFERER=http://localhost/sasep/site/login.html
+---
+2014/07/20 17:48:47 [error] [exception.CException] exception 'CException' with message 'La propiedad "Usuario"."USES_ID" no se encuentra definida.' in C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Program Files (x86)\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('USES_ID')
+#1 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\components\UserIdentity.php(44): CActiveRecord->__get('USES_ID')
+#2 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\Program Files (x86)\VertrigoServ\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\Program Files (x86)\VertrigoServ\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\Program Files (x86)\VertrigoServ\www\sasep\protected\controllers\SiteController.php(147): CModel->validate()
+#7 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\Program Files (x86)\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\Program Files (x86)\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\Program Files (x86)\VertrigoServ\www\sasep\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/sasep/site/login.html
+HTTP_REFERER=http://localhost/sasep/site/login.html
+---
