@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project name="SASEP" basedir="." default="deploy">
+
+  <fileset dir="/home/useradmin/Escritorio/sasep" id="codefiles">
+    <include name="**" />
+  </fileset>
+
+  <target name="get">
+     <echo msg="Actualizando Repositorio..." />
+	<gitpull repository="/home/useradmin/Escritorio/sasep" all="true" /> 
+  </target>
+
+  <target name="test" depends="get">
+     <echo msg="Iniciando Pruebas Unitarias..." />
+	<phpunit haltonfailure="true" printsummary="true">
+      	 <batchtest>
+           <fileset dir="/home/useradmin/Escritorio/sasep/testuni/">
+              <include name="*Test.php" />
+           </fileset>
+         </batchtest>
+        </phpunit>
+    </target>
+
+  <target name="try" depends="test">
+     <echo msg="Probando Despliegue..." />
+    <copy todir="/var/www1/sasep" overwrite="true">
+      <fileset refid="codefiles" />
+    </copy>
+  </target>
+
+  <target name="deploy" depends="try">
+    <echo msg="Desplegando Aplicacion..." />
+    <copy todir="/var/www/sasep" overwrite="true">
+      <fileset refid="codefiles" />
+    </copy>
+  </target>
+
+</project>
