@@ -33,6 +33,9 @@
     <copy todir="/var/www/sasep" overwrite="true">
       <fileset refid="codefiles" />
     </copy>
+	<echo msg="Estableciendo Permisos..." />
+         <exec command="chmod 777" dir="/var/www/sasep/assets/" />       
+	 <exec command="chmod 777" dir="/var/www/sasep/protected/runtime/" />
   </target>
 
 </project>
