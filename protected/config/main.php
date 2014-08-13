@@ -62,10 +62,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=BD_SASEP',
+			'connectionString' => 'mysql:host=localhost;dbname=bd_sasep',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'vertrigo',
+			'username' => 'sasep',
+			'password' => 'sasep',
 			'charset' => 'utf8',
 		),
 		
