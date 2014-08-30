@@ -9,7 +9,7 @@ Yii::setPathOfAlias('editable', dirname(__FILE__).'/../extensions/x-editable');
 
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'SELECCION HUMANA',
+	'name'=>'PRUEBA XINC 1.0 SELECCION HUMANA',
 	'language'=>'es',
 	'sourceLanguage'=>'en',
 	'charset'=>'utf-8',
