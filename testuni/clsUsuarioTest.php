@@ -19,9 +19,13 @@ class clsUsuarioTest extends PHPUnit_Framework_TestCase {
 public function additionProvider()
     {
         return array(
-          array(1, 'admin'),
+         /* array(1, 'admin'),
           array(2, 'randy'),
           array(10, 'edilverbm')
+          */
+          array(5, 'admin'),
+          array(6, 'randy'),
+          array(7, 'edilverbm')
         );
     }
 
